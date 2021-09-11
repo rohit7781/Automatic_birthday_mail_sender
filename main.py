@@ -1,3 +1,5 @@
+#Please see Important Notice In read me file
+
 import smtplib, ssl
 import datetime as dt
 import random
@@ -29,9 +31,9 @@ if val in birthday.keys():
     #Email sending code starts here
     port = 587
     smtp_server = "smtp.gmail.com"
-    sender_email = "ljio70447@gmail.com"
+    sender_email = "Your own Email"          #provide your email as string
     receiver_email = birthday[val][1]
-    password = "dada123@"
+    password = "Your Own email Password"        #provide Your own mail passwoed as string
     message = wishtext
 
  
